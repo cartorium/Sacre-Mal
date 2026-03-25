@@ -1,0 +1,49 @@
+{
+  "id": "sacre-mal",
+  "title": "Sacre-Mal",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>An Undead Congregation </p><p>https://www.patreon.com/Cartorium</p>",
+  "authors": [
+    {
+      "name": "Cartorium",
+      "url": "https://www.patreon.com/Cartorium",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/cartorium/Sacre-Mal",
+  "manifest": "https://raw.githubusercontent.com/cartorium/Sacre-Mal/main/module.json",
+  "download": "https://github.com/cartorium/Sacre-Mal/releases/latest/download/sacre-mal.zip",
+  "flags": {
+    "canUpload": true
+  },
+  "packs": [
+    {
+      "name": "pack-1",
+      "label": "Pack 1",
+      "path": "packs/pack-1",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    },
+    {
+      "name": "pack-2",
+      "label": "Pack 2",
+      "path": "packs/pack-2",
+      "type": "Scene",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "dnd5e",
+      "flags": {}
+    }
+  ]
+}
